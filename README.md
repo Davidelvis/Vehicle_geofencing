@@ -62,3 +62,16 @@ Alert Information data model:
 
 Two types of Maps will be created by Hazelcast to process events in real-time: `VehicleAlertInfo` and `GeneratedAlerts`. In `VehicleAlertInfo`, the Map key is the vehicle id and the value is a java object which contains the `vehicleId`, `latitude`, `longitude`, `distance`, and `phoneNumber`. The `GeneratedAlerts` Map key is the vehicle id and the value is `thresholdDistance`, `actualDistance`, `startingLatitude`, `startingLongitude`, `actualLatitude`, `actualLongitude`, `vehicleId`, `timestamp`, and `phoneNumber`.
 
+## Tools and Frameworks
+The following tools and frameworks are used to implement this project:
+
+| Name | Version |
+|----------|----------|
+| Java     |  1.8    |
+| Zookeeper    |  3.4.6   |
+| Kafka    |  2.11-0.8.2.2   |
+| Hazelcast     | 3.8     |
+| Storm        | 1.1.1 |
+| Elasticsearch   | 5.2.2     |
+| Kibana    | 5.2.2     |
+|
